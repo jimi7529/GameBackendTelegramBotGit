@@ -1,0 +1,5 @@
+#to enter in the origin_branch
+git checkout origin_branch
+
+#while being positioned in the origin_branch use this command to copy the file in destination_branch
+git checkout destination_branch --file_to_be_copied.txt

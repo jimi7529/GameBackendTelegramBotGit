@@ -1,1 +1,3 @@
+this command must be applied before ingnoring in .gitignore to avoid deleting from system int the following branch commit
+
 git rm --cached alembic.ini
