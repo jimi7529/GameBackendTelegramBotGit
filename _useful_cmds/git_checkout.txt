@@ -7,3 +7,4 @@ git checkout destination_branch -- relativePath/file_to_be_copied.txt
 #applied for this project
 git checkout main
 git checkout GameBackendTelegramBotGit-CommandAutomation
+git checkout GameBackendTelegramBotGit-CommandAutomation
