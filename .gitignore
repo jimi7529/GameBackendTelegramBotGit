@@ -21,3 +21,5 @@
 *.env
 
 *.csv
+
+app/__pycache__/
