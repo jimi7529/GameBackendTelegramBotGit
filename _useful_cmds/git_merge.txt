@@ -1,2 +1,0 @@
-#position into the branch you want the merge to be directed to and send the command with the branch you want to merge with
-git merge merge_with_branch
