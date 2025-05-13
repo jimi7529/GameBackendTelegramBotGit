@@ -21,3 +21,7 @@
 *.csv
 
 app/__pycache__/
+
+_useful_cmds/
+
+_useful_images/
