@@ -1,0 +1,22 @@
+#check health
+curl -X GET "http://localhost:8000/game/health"
+
+#add rps(sasso carta forbici) game type
+curl -X POST "http://localhost:8000/game/add-rps-game-type"
+
+#create a room
+curl -X POST "http://localhost:8000/game/create-room?game_type=rps&user_id=1"
+
+#move for first player
+curl -X POST "http://localhost:8000/game/rps/move" -H "Content-Type: application/json" -d '{"telegram_id": 1001, "room_code": "KZRO8S", "move": "rock"}'
+
+#move for the opponent
+curl -X POST "http://localhost:8000/game/rps/move" -H "Content-Type: application/json" -d '{"telegram_id": 1002, "room_code": "KZRO8S", "move": "rock"}'
+
+#end game session
+curl -X POST "http://localhost:8000/game/end-rps-session?room_code=ABC123"
+
+
+
+
+

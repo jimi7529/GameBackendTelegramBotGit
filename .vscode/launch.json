@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "compounds": [
+      {
+        "name": "Debug Server and Bot",
+        "configurations": ["Server", "Bot"]
+      }
+    ],
+    "configurations": [
+      {
+        "name": "Server",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/app/main.py",
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "Bot",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/bot/bot.py",
+        "console": "integratedTerminal"
+      }
+    ]
+  }
+  

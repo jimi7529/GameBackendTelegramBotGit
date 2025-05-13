@@ -1,0 +1,14 @@
+#starting the game and registering the bot user
+/start
+
+#add game type
+/add_rps
+
+#add a room
+/create_room
+
+#play moves
+/play [room_code] [move]
+
+#end game session
+/end_session [room_code]
