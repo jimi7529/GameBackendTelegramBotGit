@@ -1,5 +1,0 @@
-#safe this delete only after merge has been detected
-git branch -d feature-branch
-
-#not safe also if no merge has been performed
-git branch -D feature-branch
